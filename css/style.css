@@ -710,6 +710,23 @@ footer .copy-right {
 	margin: 5px auto;
 }	
 
+.frameContain{
+	width: 600px;
+	height: 460px;
+	margin: auto;
+}
+
+.fw-iframe{
+	width:100%;
+	height:560px;
+}
+
+
+.topLogo{
+	width: 100%;
+}
+
+
 /*
  * Responsive CSS 
  */
@@ -723,6 +740,28 @@ footer .copy-right {
 	.banner-video .slider .video-header {bottom: 70px;}
 	
 	.meet .meet-map .map-marker img {max-width: 15px !important;}
+
+	.fw-iframe{
+		width: 100%;
+		height: 460px;
+	}
+	.frameContain{
+		width: 100%;
+		height: 460px;
+	}
+	.topLogo{
+		width:75%;
+	}
+	.navbar-brand>img {
+		position:absolute;
+		width:75%;
+		margin-top: 0px;
+
+	}
+	.banner{
+		margin-top:70px;
+	}
+
 }
 
 /*
