@@ -738,6 +738,21 @@ footer .copy-right {
 	.banner .slide-one h3, .banner .slide-two h3,
 	.banner .slide-one .btn, .banner .slide-two .btn {display: none !important;}
 	.banner-video .slider .video-header {bottom: 70px;}
+
+
+	.banner .slide-one, .banner .slide-two {top: 80px !important;}
+	
+	.banner .slide-one h2, .banner .slide-two h2 {font-size: 20px !important;}
+	.banner .slide-one h2 i, .banner .slide-two h2 i {font-size: 32px !important;}
+	.banner .slide-one h3, .banner .slide-two h3 {font-size: 10px !important;}
+	.banner .slide-one .btn, .banner .slide-two .btn {
+		padding: 8px 12px;
+		font-size: 7px;
+	}
+
+
+
+
 	
 	.meet .meet-map .map-marker img {max-width: 15px !important;}
 
@@ -756,12 +771,14 @@ footer .copy-right {
 		position:absolute;
 		width:75%;
 		margin-top: 0px;
-
 	}
 	.banner{
-		margin-top:70px;
+		margin-top: 70px;
 	}
+	.carousel-caption {
+		padding-top: 0px;
 
+	}
 }
 
 /*
@@ -786,11 +803,11 @@ footer .copy-right {
 	.navbar .navbar-nav {margin-top: 0;}
 	.secondary-menu {display: none;}
 	
-	.banner .slide-one, .banner .slide-two {top: 80px !important;}
+	.banner .slide-one, .banner .slide-two {top: 80px;}
 	.banner .carousel .carousel-control {display: none;}
-	.banner .slide-one h2, .banner .slide-two h2 {font-size: 32px !important;}
-	.banner .slide-one h2 i, .banner .slide-two h2 i {font-size: 40px !important;}
-	.banner .slide-one h3, .banner .slide-two h3 {font-size: 20px !important;}
+	.banner .slide-one h2, .banner .slide-two h2 {font-size: 32px;}
+	.banner .slide-one h2 i, .banner .slide-two h2 i {font-size: 40px;}
+	.banner .slide-one h3, .banner .slide-two h3 {font-size: 20px;}
 	.banner .slide-one .btn, .banner .slide-two .btn {
 		padding: 8px 12px;
 		font-size: 14px;
